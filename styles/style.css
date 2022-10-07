@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    /* PRIMARY */
+    --void: #170f1E;
+    --manga: #E5E1E6;
+
+    /* SECONDARY */
+    --spark: #FFE27D;
+    --surf: #64E3FF;
+    --psybeam: #9092ff;
+
+}
+body {
+    font-family: 'Prata', serif;
+    background-color: var(--void);
+    color: var(--manga);
+    
+}
+
+.header{
+    padding: 1rem 1.5rem;
+}
+
+.nav-heading,.profile-continer {
+    text-align: center;
+}
+
+.nav-heading{
+    align-items: center;
+    padding: 1rem 1.2rem;
+    /* background-color: var(--manga); */
+}
+
+.profile-continer{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    padding: 4rem;
+    gap: 5em;
+}
+
+.profile-item {
+    line-height: 1.6;
+    padding: 1rem;
+    max-width: 400px;
+    height: 100%;
+    background-color: var(--psybeam);
+    box-shadow: 4px 6px 20px 3px var(--manga);
+    border-radius: .5rem;
+}
+
+.img img{
+    max-width: 50%;
+    height: 70%;
+    border-radius: 50%;
+}
