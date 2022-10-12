@@ -49,8 +49,11 @@ body {
     max-width: 400px;
     height: 100%;
     background-color: var(--psybeam);
-    box-shadow: 4px 6px 20px 3px var(--manga);
     border-radius: .5rem;
+}
+
+.profile-item:hover {
+    box-shadow: 4px 6px 20px 3px var(--manga);
 }
 
 .img img{
